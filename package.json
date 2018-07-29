@@ -45,7 +45,7 @@
 				"command": "tabout",
 				"key":"tab",
 				"mac": "tab",
-                "when": "editorTextFocus && !suggestWidgetVisible"
+                "when": "editorTextFocus && !suggestWidgetVisible && !inSnippetMode"
 			}]
     },
     "scripts": {
